@@ -1,5 +1,5 @@
 body {
-	background-color: #848484;
+	background-color: #0931e4;
 }
 a {
 	cursor: pointer;
@@ -9,7 +9,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #c1af73;
 }
 
 li {
@@ -28,7 +28,6 @@ li a:hover {
 	background-color: #111;
 }
 .active {
-	background-color: #04aa6d;
 }
 li a:hover,
 .dropdown:hover .dropbtn {
