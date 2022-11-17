@@ -8,7 +8,7 @@
 
 ---
 
-La pagina contiene imagenes Alianza Lima, Campeón 2022 de la liga1 betsson de Perú, tambien se añaden fotos familiares con la camiseta de Alianza.
+La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson de Perú, tambien se añaden fotos familiares con la camiseta de Alianza.
 
 ---
 
@@ -16,8 +16,8 @@ La pagina contiene imagenes Alianza Lima, Campeón 2022 de la liga1 betsson de P
 
 - [Github](https://github.com/omarerick?tab=repositories)
 
-- [pages](http://www.omarsiempregrone.tk/)
+- [pages www.omarsiempregrone.tk](http://www.omarsiempregrone.tk/)
 
-- UML
+- Diagrama UML
 
 ![Diagrama](./docs/diagramauml.jpg)
