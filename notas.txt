@@ -1,0 +1,54 @@
+<img src="./img/campeon."300" height="200" />
+"background-color: red"
+
+<h4 style="color: #d13b12f0; background-color: #18fabef3">Click Aqui</h4>
+
+<a _ngcontent-c5 class="Ir a Home"><img _ngcontent-c5 alt="logo" src="img/logo.svg" /></a>
+
+margin: 20px;
+				padding: 20px;
+				
+					background-color: #18fabef3;
+					
+					<iframe
+		
+			width="566"
+			height="331"
+			src="https://www.youtube.com/embed/MAapByYc_LA"
+			title="Alianza Lima vs Melgar 2-0 Resumen y Goles | Final | Liga 1 betsson 2022"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+			
+			.active {
+}
+
+.dropdown-content a:hover {
+	background-color: #2fd648;
+	
+	.dropdown-content a {
+	color: #470d19;
+	padding: 20px 30px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+<div class="dropdown-content">
+
+<iframe width="900" height="506" src="https://youtu.be/MAapByYc_LA?t=10" title="Alianza Lima vs Melgar 2-0 Resumen y Goles | Final | Liga 1 betsson 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifram
+
+GALLO NEGRO
+https://youtu.be/ovD5g9hRVHo
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/ovD5g9hRVHo" title="Gallo Negro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+HOMENAJE A LOS POTRILLOS
+https://youtu.be/udzR6qm6E-U
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/udzR6qm6E-U" title="De la Victoria a la Gloria - Homenaje en Caricatura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
