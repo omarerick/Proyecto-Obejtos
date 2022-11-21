@@ -8,10 +8,11 @@ a {
 }
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 10px;
+	padding: 20px;
 	overflow: hidden;
 	background-color: #c1af73;
+	border-radius: 30px;
 }
 
 li {

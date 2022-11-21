@@ -7,18 +7,17 @@
 		<title>Alianza Campeón 2022 !!</title>
 		<link rel="stylesheet" href="css/navbar.css" />
 		<style>
-			body {
-  				box-sizing: border-box;
+			* {
+				box-sizing: border-box;
 			}
 			section {
 				margin: 10px;
 				padding: 10px;
 				text-align: center;
 				width: auto;
-  				height: auto;
-				  
+				height: auto;
 			}
-			
+
 			.bordeRedondo {
 				text-align: center;
 				border-radius: 20px;
@@ -30,20 +29,17 @@
 				color: #0d2647;
 				transition: all ease-in-out 200ms;
 				width: auto;
-  				height: auto;
+				height: auto;
 			}
 			.video {
 				text-align: center;
-
 			}
-			
+
 			.campeon {
-			color: red;
-			font-size: 1.50em;	
-			margin: 1px;
-			padding: 1px;
-			
-			
+				color: red;
+				font-size: 1.5em;
+				margin: 1px;
+				padding: 1px;
 			}
 			.desc {
 				color: azure;
@@ -54,7 +50,7 @@
 				float: left;
 				margin-bottom: 30px;
 				margin-left: 20px;
-  				padding: 10px;
+				padding: 10px;
 				color: rgb(254, 255, 255);
 			}
 			.right {
@@ -63,37 +59,58 @@
 				margin-bottom: 30px;
 				margin-right: 20px;
 				color: rgb(254, 255, 255);
-				
 			}
-		
-		
+
+			.img-container {
+				float: left;
+				width: 33.33%;
+				padding: 5px;
+				height: auto;
+			}
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
 		</style>
 	</head>
 	<body>
 		<navbar>
 			<ul>
-				<a _ngcontent-c5 class="Ir a Home"><img _ngcontent-c5 alt="logo" src="img/logo.svg" /></a><hr>
-				<li><a href="#home">Home</a></li>
-				<li><a href="https://clubalianzalima.com.pe/#/historia" target="_blank">Historia</a></li>
+				<a _ngcontent-c5 href="https://clubalianzalima.com.pe" target="_blank"
+					><img _ngcontent-c5 alt="logo" src="img/logo.svg"
+				/></a>
+				<hr />
+				<li><a href="./menu.html" target="_blank">Home</a></li>
+				<li><a href="./grone.html" target="_blank">Historia</a></li>
 				<li><a href="https://clubalianzalima.com.pe/#/noticias?tag=todos" target="_blank">Noticias</a></li>
 				<li style class="dropdown">
-					
-					
-				<a href="https://clubalianzalima.com.pe/#/noticias/noticia/dos-anos-deportivos-para-poner-en-un-marco" target="_blank">Especial Bicampeon</a>
-						
-					</div>
+					<a
+						href="https://clubalianzalima.com.pe/#/noticias/noticia/dos-anos-deportivos-para-poner-en-un-marco"
+						target="_blank"
+						>Especial Bicampeon</a
+					>
 				</li>
-				<li style="float: right"><a href="https://clubalianzalima.com.pe/#/noticias/noticia/alianza-lima-lanza-la-tienda-blanquiazul" target="_blank">Tienda</a></li>
-				<li style="float: right"><a href="https://hazteintimo.clubalianzalima.com.pe/planes" target="_blank">Area Socio</a></li>
+				<li style="float: right">
+					<a
+						href="https://clubalianzalima.com.pe/#/noticias/noticia/alianza-lima-lanza-la-tienda-blanquiazul"
+						target="_blank"
+						>Tienda</a
+					>
+				</li>
+				<li style="float: right">
+					<a href="https://hazteintimo.clubalianzalima.com.pe/planes" target="_blank">Area Socio</a>
+				</li>
 			</ul>
 		</navbar>
 		<section class="bordeRedondo">
-			<section class="campeon"> CAMPEÓN 2022</section>
+			<section class="campeon">CAMPEÓN 2022</section>
 		</section>
 		<section>
 			<div class="dropdown">
 				<a href="https://youtu.be/Wm1Yba0xy-M?t=4" target="_blank">
-					<img src="./img/campeon.jpg" alt="hernan" width="auto" height="auto" /></a>
+					<img src="./img/campeon.jpg" alt="hernan" width="auto" height="auto"
+				/></a>
 				<div class="dropdown-campeon">
 					<div class="desc">Alianza Campeon 2022</div>
 				</div>
@@ -101,43 +118,84 @@
 		</section>
 		<section class="bordeRedondo">EL EQUIPO</section>
 		<section>
-		<a href="https://youtu.be/7-JHNdxR8eo?t=5" target="_blank"><img src="./img/elequipo.jpg" width="1000" height="500" /></a>
+			<a href="https://youtu.be/7-JHNdxR8eo?t=5" target="_blank"
+				><img src="./img/elequipo.jpg" width="1000" height="500"
+			/></a>
 		</section>
-		<section class="bordeRedondo" >EL GOLEADOR</section>
+		<section class="bordeRedondo">EL GOLEADOR</section>
 		<section>
 			<a href="https://clubalianzalima.com.pe/#/plantilla/ficha/hernan-barcos" target="_blank">
-				<img src="img/hernanbarcos.jpg" width="1000" height="500"></a>
+				<img src="img/hernanbarcos.jpg" width="1000" height="500"
+			/></a>
 			<div class="goleador">
-			
-					
 				<div class="desc">Hernan Barcos</div>
 			</div>
 		</section>
 
 		<section class="bordeRedondo">RESUMEN DEL PARTIDO</section>
 		<div class="video">
-			<iframe width="900" height="506" src="https://www.youtube.com/embed/6_yqqPNkLzU" 
-			title="Alianza Lima 2 - 0 FBC Melgar | GOLES | FINAL | Liga 1 Perú" frameborder="0" 
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			<iframe
+				width="900"
+				height="506"
+				src="https://www.youtube.com/embed/6_yqqPNkLzU"
+				title="Alianza Lima 2 - 0 FBC Melgar | GOLES | FINAL | Liga 1 Perú"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			>
 			</iframe>
 		</div>
-		
 
-		<section class="bordeRedondo">CELEBRACION "LA FOQUITA"
-			<a href="https://fb.watch/gQPkStdEMV/" target="_blank" style="color:rgba(255, 0, 47, 0.837); background-color: #18fabef3;">Click aqui !!</a></h4>
+		<section class="bordeRedondo">
+			CELEBRACION "LA FOQUITA"
+			<a
+				href="https://fb.watch/gQPkStdEMV/"
+				target="_blank"
+				style="color: rgba(255, 0, 47, 0.837); background-color: #18fabef3"
+				>Click aqui !!</a
+			>
 		</section>
-			<section class="bordeRedondo">MI FAMILIA BLANQUIAZUL</section>
-			<br>
-			<br>
-			<hr>
+		<section class="bordeRedondo">MI FAMILIA BLANQUIAZUL</section>
 
+		<div class="clearfix" style="margin-left: 5%">
+			<div class="img-container">
+				<img src="fotosfamilia/erickescudo.jpg" alt="Italy" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/omarerikyrenatoperu.jpg" alt="Forest" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/miviejo1.jpg" alt="Mountains" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/erickyjose.jpg" alt="Italy" style="width: 80%" />
+			</div>
+
+			<div class="img-container">
+				<img src="fotosfamilia/evelyn.jpg" alt="Mountains" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/mateo.jpg" alt="Mountains" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/erickypapo.jpg" alt="Mountains" style="width: 85%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/alianzaybarça1.jpg" alt="Mountains" style="width: 80%" />
+			</div>
+			<div class="img-container">
+				<img src="fotosfamilia/edualianza.jpg" alt="Mountains" style="width: 70%" />
+			</div>
+		</div>
+		<br />
+		<br />
+		<hr />
 
 		<footer>
-			
-			<a href="https://clubalianzalima.com.pe/" target="_blank"><div class="left">© 2022 Alianza Lima Corazón </div></a>
-				<a href="http://www.omarsiempregrone.tk/" target="_blank"><div class="right">Administrado: omarsiempregrone.tk</div></a>
-		
-			
+			<a href="https://clubalianzalima.com.pe/" target="_blank"><div class="left">© 2022 Alianza Lima Corazón</div></a>
+			<a href="http://www.omarsiempregrone.tk/" target="_blank"
+				><div class="right">Administrado: omarsiempregrone.tk</div></a
+			>
 		</footer>
 	</body>
 </html>

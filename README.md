@@ -14,7 +14,7 @@ La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson d
 
 `Links`
 
-- [Github](https://github.com/omarerick?tab=repositories)
+- [Github](https://github.com/omarerick/Proyecto-Objetos)
 
 - [pages www.omarsiempregrone.tk](http://www.omarsiempregrone.tk/)
 
