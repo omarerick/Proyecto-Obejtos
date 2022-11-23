@@ -4,7 +4,7 @@
 
 ## Creado por Omar Cervera
 
-`Este proyecto esta hecho con html y css`
+`Este proyecto esta hecho con html, css y un poquito de php`
 
 ---
 
@@ -20,4 +20,4 @@ La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson d
 
 - Diagrama UML
 
-![Diagrama](./docs/diagramauml.jpg)
+![Diagrama](./docs/diagramaproyecto.jpg)
