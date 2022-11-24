@@ -8,7 +8,7 @@
 
 ---
 
-La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson de Perú, tambien se añaden fotos familiares con la camiseta de Alianza.
+La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson de Perú, tambien hay enlaces a diferentes pag. y videos, Se añaden fotos familiares con la camiseta de Alianza.
 
 ---
 
