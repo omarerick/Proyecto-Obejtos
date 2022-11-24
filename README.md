@@ -20,4 +20,4 @@ La pagina contiene imagenes de Alianza Lima, Campeón 2022 de la liga1 betsson d
 
 - Diagrama UML
 
-![Diagrama](./docs/diagrama.jpg)
+![Diagrama](./docs/diagramaoriginal.jpg)
