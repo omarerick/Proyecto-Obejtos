@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Prueba_Bootstrap</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous"
+		/>
+		<style>
+			body {
+				background-color: aqua;
+			}
+			.container {
+				background-color: blanchedalmond;
+			}
+			.form-inline {
+				margin: 20px;
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+			}
+			label {
+				margin-right: 10px;
+			}
+			.mensajesDeError {
+				margin-right: 20px;
+				color: red;
+				display: none;
+			}
+			section {
+				background-color: #bcbcbc;
+				margin-top: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+		</style>
+		<script>
+			function comprobarPassword() {
+				value_password = document.getElementById("password").value;
+				if (value_password.length < 2) {
+					document.getElementById("password").style.backgroundColor = "red";
+					document.getElementById("password_error").style.display = "block";
+					alert("Es corto");
+					return;
+				}
+				value_repassword = document.getElementById("repassword").value;
+				if (value_password != value_repassword) {
+					alert("No iguales");
+					return;
+				}
+				form = document.getElementById("elForm");
+				form.action = "recoger_datos.php";
+				form.target = "_blank";
+				form.submit();
+			}
+		</script>
+	</head>
+	<body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"
+		></script>
+
+		<section class="container">
+			<form method="post" id="elForm">
+				<div>
+					<label for="nombre">Nombre:</label><br />
+					<input type="text" name="nombre" id="nombre" placeholder="Juan" value="Juan" required />
+					<div class="mensajesDeError"><p>Falta el nombre</p></div>
+				</div>
+				<div>
+					<label>Edad:</label><br />
+					<input type="number" name="edad" id="edad" placeholder="20" value="15" />
+					<div class="mensajesDeError"><p>Falta la edad</p></div>
+				</div>
+				<div>
+					<label>Email:</label><br />
+					<input type="email" name="email" id="email" placeholder="cosa@gmail.com" value="cosa@gmail.com" />
+					<div class="mensajesDeError"><p>El email ta pocho</p></div>
+				</div>
+				<div>
+					<label>CP:</label><br />
+					<input type="number" name="cp" id="cp" placeholder="080500" value="080500" />
+					<div class="mensajesDeError"><p>CP no valido</p></div>
+				</div>
+				<div>
+					<label>Password:</label><br />
+					<input type="password" id="password" value="asd" />
+					<div class="mensajesDeError" id="password_error"><p>La contraseña es muy corta</p></div>
+				</div>
+				<div>
+					<label>Re-Password:</label><br />
+					<input type="password" name="password" id="repassword" />
+					<div class="mensajesDeError"><p>Las contraseñas no coinciden</p></div>
+				</div>
+				<div>
+					<!-- <input type="submit" value="Enviar" /> -->
+				</div>
+				<br />
+			</form>
+			<button onclick="comprobarPassword()">Send</button>
+		</section>
+	</body>
+</html>

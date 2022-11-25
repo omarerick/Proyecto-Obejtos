@@ -6,13 +6,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Alianza Campeón 2022 !!</title>
 		<link rel="stylesheet" href="css/navbar.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous"
+		/>
 		<style>
-			* {
-				box-sizing: border-box;
+			body {
+				background-color: #0d2647;
 			}
 			section {
 				padding: 10px;
-
+				margin: 20px;
 				width: auto;
 				height: auto;
 				display: block;
@@ -28,12 +34,6 @@
 				text-transform: uppercase;
 				color: #0d2647;
 				transition: all ease-in-out 200ms;
-			}
-			.video {
-				text-align: center;
-				width: 70%;
-				display: block;
-				margin: auto;
 			}
 
 			.campeon {
@@ -58,17 +58,12 @@
 				color: rgb(254, 255, 255);
 			}
 
-			.img-container {
-				float: left;
-				width: 33.33%;
-				padding: 5px;
-				height: auto;
-			}
 			.clearfix::after {
 				content: "";
 				clear: both;
 				display: table;
 			}
+
 			.img-flexbox {
 				width: 70%;
 				padding: 0 20px;
@@ -77,53 +72,63 @@
 				display: block;
 				margin: auto;
 			}
+			.video-responsive {
+				overflow: hidden;
+				padding-bottom: 390px; /* Adecua este valor para controlar la altura del video */
+				position: relative;
+				height: 100%;
+			}
+			.video-responsive iframe {
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 80%;
+				position: absolute;
+			}
+
 			h3 {
 				text-align: center;
 				color: #f9f9f9;
 			}
+
 			@media only screen and (max-width: 500px) {
 				/* For mobile phones: */
 
-				ul,
 				section,
 				.img-flexbox,
-				.video,
 				.bordeRedondo {
 					width: 100%;
 				}
 			}
 		</style>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<navbar>
-			<section class="container">
-				<ul>
-					<a _ngcontent-c5 href="https://clubalianzalima.com.pe" target="_blank"
-						><img _ngcontent-c5 alt="logo" src="img/logo.svg"
-					/></a>
-					<hr />
-					<li><a href="./menu.html" target="_blank">Menu</a></li>
-					<li><a href="./grone.html" target="_blank">HistoriaGrone</a></li>
-					<li><a href="https://clubalianzalima.com.pe/#/noticias?tag=todos" target="_blank">Noticias</a></li>
-					<li style class="dropdown">
-						<a
-							href="https://clubalianzalima.com.pe/#/noticias/noticia/dos-anos-deportivos-para-poner-en-un-marco"
-							target="_blank"
-							>Especial Bicampeon</a
-						>
-					</li>
-					<li style="float: right">
-						<a
-							href="https://clubalianzalima.com.pe/#/noticias/noticia/alianza-lima-lanza-la-tienda-blanquiazul"
-							target="_blank"
-							>Tienda</a
-						>
-					</li>
-					<li style="float: right">
-						<a href="./signin.html" target="_blank">Signin</a>
-					</li>
-				</ul>
-			</section>
+			<ul>
+				<a _ngcontent-c5 href="https://clubalianzalima.com.pe" target="_blank"
+					><img _ngcontent-c5 alt="logo" src="img/logo.svg"
+				/></a>
+				<hr />
+				<li><a href="./menu.html" target="_blank">Menu</a></li>
+				<li><a href="./grone.html" target="_blank">HistoriaGrone</a></li>
+				<li><a href="./index.html#direccionenvio">Fotos Familia</a></li>
+				<li>
+					<a
+						href="https://clubalianzalima.com.pe/#/noticias/noticia/dos-anos-deportivos-para-poner-en-un-marco"
+						target="_blank"
+						>Especial Bicampeon</a
+					>
+				</li>
+
+				<li style="float: right">
+					<a href="./signin.html" target="_blank">Signin</a>
+				</li>
+			</ul>
 		</navbar>
 		<section class="bordeRedondo">
 			<section class="campeon">CAMPEÓN 2022</section>
@@ -159,17 +164,19 @@
 		</section>
 
 		<section class="bordeRedondo">RESUMEN DEL PARTIDO</section>
-		<div class="video">
-			<iframe
-				width="800"
-				height="456"
-				src="https://www.youtube.com/embed/MAapByYc_LA"
-				title="Alianza Lima vs Melgar 2-0 Resumen y Goles | Final | Liga 1 betsson 2022"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			></iframe>
-		</div>
+		<section>
+			<div class="video-responsive">
+				<iframe
+					width="900"
+					height="506"
+					src="https://www.youtube.com/embed/MAapByYc_LA"
+					title="Alianza Lima vs Melgar 2-0 Resumen y Goles | Final | Liga 1 betsson 2022"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</div>
+		</section>
 
 		<section class="bordeRedondo">
 			CELEBRACION "LA FOQUITA"
@@ -182,45 +189,131 @@
 		</section>
 		<section class="bordeRedondo">MI FAMILIA BLANQUIAZUL</section>
 
-		<div class="clearfix" style="margin-left: 14%">
-			<div class="img-container">
-				<img src="fotosfamilia/erickescudo.jpg" alt="Italy" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/omarerikyrenatoperu.jpg" alt="Forest" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/miviejo1.jpg" alt="Mountains" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/erickyjose.jpg" alt="Italy" style="width: 80%" />
-			</div>
-
-			<div class="img-container">
-				<img src="fotosfamilia/evelyn.jpg" alt="Mountains" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/mateo.jpg" alt="Mountains" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/erickypapo.jpg" alt="Mountains" style="width: 85%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/alianzaybarça1.jpg" alt="Mountains" style="width: 80%" />
-			</div>
-			<div class="img-container">
-				<img src="fotosfamilia/edualianza.jpg" alt="Mountains" style="width: 70%" />
+		<div class="container" style="width: 48%" id="direccionenvio">
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="3"
+						aria-label="Slide 4"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="4"
+						aria-label="Slide 5"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="5"
+						aria-label="Slide 6"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="6"
+						aria-label="Slide 7"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="7"
+						aria-label="Slide 8"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="8"
+						aria-label="Slide 9"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="9"
+						aria-label="Slide 10"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./fotosfamilia/alianzaybarça1.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/erickypapo.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/miviejo1.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/omarerikyrenatoperu.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/mateo.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/evelyn.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/erickyjose.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/miviejo2.jpg" class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="./fotosfamilia/erickescudo.jpg" class="d-block w-100" alt="..." />
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
 		</div>
-		<br />
+
 		<br />
 		<hr />
 
 		<footer>
-			<a href="https://clubalianzalima.com.pe/" target="_blank"><div class="left">© 2022 Alianza Lima Corazón</div></a>
-			<a href="http://www.omarsiempregrone.tk/" target="_blank"
-				><div class="right">Administrado: omarsiempregrone.tk</div></a
-			>
+			<div class="footer">
+				<a href="https://clubalianzalima.com.pe/" target="_blank" float="left">© 2022 Alianza Lima Corazón</a><br />
+
+				<a href="http://www.omarsiempregrone.tk/" target="_blank" float="right">Administrado: omarsiempregrone.tk</a>
+			</div>
 		</footer>
 	</body>
 </html>
