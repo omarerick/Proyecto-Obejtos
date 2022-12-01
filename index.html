@@ -43,27 +43,6 @@
 				padding: 1px;
 			}
 
-			.left {
-				float: left;
-				margin-bottom: 30px;
-				margin-left: 20px;
-				padding: 10px;
-				color: rgb(254, 255, 255);
-			}
-			.right {
-				float: right;
-				padding: 10px;
-				margin-bottom: 30px;
-				margin-right: 20px;
-				color: rgb(254, 255, 255);
-			}
-
-			.clearfix::after {
-				content: "";
-				clear: both;
-				display: table;
-			}
-
 			.img-flexbox {
 				width: 70%;
 				padding: 0 20px;
@@ -72,23 +51,23 @@
 				display: block;
 				margin: auto;
 			}
+
 			.video-responsive {
-				overflow: hidden;
-				padding-bottom: 390px; /* Adecua este valor para controlar la altura del video */
-				position: relative;
-				height: 100%;
-			}
-			.video-responsive iframe {
 				left: 0;
 				top: 0;
 				height: 100%;
-				width: 80%;
-				position: absolute;
+				width: 100%;
+				margin: auto;
+				overflow: hidden;
+				padding-bottom: 10px;
+				display: block;
 			}
 
-			h3 {
-				text-align: center;
-				color: #f9f9f9;
+			.footer {
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: rgb(0, 0, 0);
 			}
 
 			@media only screen and (max-width: 500px) {
@@ -96,7 +75,7 @@
 
 				section,
 				.img-flexbox,
-				.bordeRedondo {
+				.bordeRedondo .video-responsive {
 					width: 100%;
 				}
 			}
@@ -189,7 +168,7 @@
 		</section>
 		<section class="bordeRedondo">MI FAMILIA BLANQUIAZUL</section>
 
-		<div class="container" style="width: 48%" id="direccionenvio">
+		<div class="container" style="width: 80%" id="direccionenvio">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 				<div class="carousel-indicators">
 					<button
@@ -305,15 +284,16 @@
 			</div>
 		</div>
 
-		<br />
-		<hr />
+		<br /><br /><br />
 
-		<footer>
-			<div class="footer">
-				<a href="https://clubalianzalima.com.pe/" target="_blank" float="left">© 2022 Alianza Lima Corazón</a><br />
+		<div class="footer">
+			<p>
+				<a href="https://clubalianzalima.com.pe/" target="_blank">© 2022 Alianza Lima Corazón</a>
+			</p>
 
-				<a href="http://www.omarsiempregrone.tk/" target="_blank" float="right">Administrado: omarsiempregrone.tk</a>
-			</div>
-		</footer>
+			<p>
+				<a href="http://www.omarsiempregrone.tk/" target="_blank">Administrado por: omarsiempregrone.tk </a>
+			</p>
+		</div>
 	</body>
 </html>
